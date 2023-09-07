@@ -8,7 +8,7 @@ const Counter = observer(() => {
             <button onClick={() => {
                 counterStore.increase()
             }}>
-                Click me
+                Click me (<strong>Counter Component</strong>)
             </button>
         </div>
     );
